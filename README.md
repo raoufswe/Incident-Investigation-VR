@@ -1,4 +1,4 @@
-**A virtual realily application to enable virtual incident investigation.**
+**A virtual reality application to enable virtual incident investigation.**
 
 The application was developed using React VR and it supports the following functions:
 
