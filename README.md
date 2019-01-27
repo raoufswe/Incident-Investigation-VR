@@ -1,29 +1,15 @@
-# react-vr-router
+**A virtual realily application to enable virtual incident investigation.**
 
- ![image](https://github.com/LiuC520/react-vr-router/blob/master/example.gif)
-#### use [react-router](https://github.com/ReactTraining/react-router) for react-vr
- #### you can run this example 
- #### 1. git clone https://github.com/LiuC520/react-vr-router.git
- #### 2. cd react-vr-router
- #### 3. npm i
- #### 4. npm start
- #### 5.open your browser, http://localhost:8081/vr/
-```
-import { MemoryRouter as Router, Redirect, Route, Switch } from 'react-router';
-import TS1 from './src/test'
-import TS2 from './src/test_1'
+The application was developed using React VR and it supports the following functions:
 
-class Example extends Component{
-  render(){
-    return(
-      <Router>
-        <View>
-          <Route exact path='/' component={TS1}/>
-          <Route exact path='/test_1' component={TS2}/>
-          <Route exact path='/test' component={TS1}/>
-        </View>
-      </Router>
-    )
-  }
-}
-```
+* React Router to move between pages.
+* A VR video player. 
+* Fetch data from external JSON files. 
+* 3D models of KLCC (Twin Tower) and Exxon-mobile buildings in Kuala Lumpur. 
+
+_To run the application, make sure you have installed Node.js then: _
+
+#### 1. cd to your folder path
+#### 2. npm install
+#### 3. npm start
+#### 4. open your browser, http://localhost:8081/vr/
