@@ -1,0 +1,21 @@
+[
+    {
+        "Id": 1,
+        "AssetID": 1,
+        "AssetName": "KL",
+        "Name" : "Menara Exxon Mobil",
+        "ImageUrl": "https://i.imgur.com/stnjxwS.jpg"
+    },
+    {
+        "Id": 2,
+        "AssetID": 1,
+        "AssetName": "KL",
+        "Name" : "KLCC Tower",
+        "ImageUrl": "https://i.imgur.com/VXbQhGQ.jpg"
+    }
+]
+
+
+
+https://gitlab.com/abdulraoufswe97/vr-json/raw/master/Incident.json
+https://gitlab.com/abdulraoufswe97/vr-json/raw/master/Building.json
